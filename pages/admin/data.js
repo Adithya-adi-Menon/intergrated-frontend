@@ -16,7 +16,7 @@ export default function Home() {
           <WelcomeHero h1="User data" />
 //           <DataComponent />
         </div>
-        <AdminSidebar />
+//         <AdminSidebar />
       </div>
     </div>
   );

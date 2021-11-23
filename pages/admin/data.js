@@ -1,6 +1,6 @@
 import Head from "next/head";
 import AdminSidebar from "../../components/admin/AdminSidebar";
-import DataComponent from "../../components/admin/DataComponent";
+// import DataComponent from "../../components/admin/DataComponent";
 import { WelcomeHero } from "../../components/WelcomeHero";
 
 export default function Home() {
@@ -14,7 +14,7 @@ export default function Home() {
       <div className="flex  flex-wrap">
         <div className="container min-h-screen bg-gray-100 pt-0 md:ml-60">
           <WelcomeHero h1="User data" />
-          <DataComponent />
+//           <DataComponent />
         </div>
         <AdminSidebar />
       </div>

@@ -1,5 +1,5 @@
 import Head from "next/head";
-import AdminSidebar from "../../components/admin/AdminSidebar";
+
 import DataComponent from "../../components/admin/DataComponent";
 import { WelcomeHero } from "../../components/WelcomeHero";
 
@@ -16,7 +16,7 @@ export default function Home() {
           <WelcomeHero h1="User data" />
           <DataComponent />
         </div>
-//         <AdminSidebar />
+        
       </div>
     </div>
   );
